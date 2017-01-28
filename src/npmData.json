@@ -1,0 +1,72 @@
+[
+	{
+		"downloads": 725,
+		"start": "2016-12-29",
+		"end": "2017-01-27",
+		"package": "typescript-ready",
+		"info": {
+			"name": "typescript-ready",
+			"version": "3.0.6",
+			"description": "Create A TypeScript environement. Nodemon ready.",
+			"license": "ISC",
+			"homepage": "https://github.com/CraigglesO/TypeScript-Ready#readme",
+			"author": "Craig OConnor"
+		}
+	},
+	{
+		"downloads": 325,
+		"start": "2016-12-29",
+		"end": "2017-01-27",
+		"package": "webrtc-socket",
+		"info": {
+			"name": "webrtc-socket",
+			"version": "0.2.4",
+			"description": "Uses Websockets to send WebRTC data to and from users",
+			"license": "ISC",
+			"homepage": "https://github.com/CraigglesO/webRTC-Socket#readme",
+			"author": "CraigglesO"
+		}
+	},
+	{
+		"downloads": 244,
+		"start": "2016-12-29",
+		"end": "2017-01-27",
+		"package": "babel-ready",
+		"info": {
+			"name": "babel-ready",
+			"version": "1.0.6",
+			"description": "### Quickly get a project up and running (BOILER-PLATE)",
+			"license": "ISC",
+			"homepage": "https://github.com/CraigglesO/Babel-Ready#readme",
+			"author": "oconnorct1"
+		}
+	},
+	{
+		"downloads": 197,
+		"start": "2016-12-29",
+		"end": "2017-01-27",
+		"package": "bit-formater",
+		"info": {
+			"name": "bit-formater",
+			"version": "0.9.7",
+			"description": "Format bit input. Options of a function and class",
+			"license": "ISC",
+			"homepage": "https://github.com/CraigglesO/bit-formater#readme",
+			"author": "Craig OConnor"
+		}
+	},
+	{
+		"downloads": 160,
+		"start": "2016-12-29",
+		"end": "2017-01-27",
+		"package": "torrent-piece-handler",
+		"info": {
+			"name": "torrent-piece-handler",
+			"version": "3.16.41",
+			"description": "Torrents have different piece and block sizes. This will manage those differences",
+			"license": "ISC",
+			"homepage": "https://github.com/CraigglesO/torrent-piece-handler#readme",
+			"author": "Craig OConnor"
+		}
+	}
+]
