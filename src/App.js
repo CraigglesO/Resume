@@ -1,34 +1,35 @@
 import React, { Component } from 'react';
+import FontAwesome from 'react-fontawesome';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import { Notification } from 'react-notification';
 import { observer } from "mobx-react"
 import Vivus from "vivus";
-import connor from './connor.svg';
-import img from './img.svg';
+import Connorsvg from './connor.svg';
 import me from './me.png';
 import './App.css';
 import '../font-awesome-4.7.0/css/font-awesome.min.css';
 import ReactTooltip from 'react-tooltip';
-import zero from './img/IMG_6003.JPG';
-import one from './img/IMG_0654.jpg';
-import two from './img/IMG_1471.jpg';
-import three from './img/IMG_2097.jpg';
-import four from './img/IMG_2741.jpg';
-import five from './img/IMG_3456.jpg';
-import six from './img/IMG_3477.jpg';
-import seven from './img/IMG_4221.jpg';
-import eight from './img/IMG_4658.jpg';
-import nine from './img/IMG_4766.jpg';
-import ten from './img/IMG_4906.jpg';
-import eleven from './img/IMG_5767.jpg';
-import twelve from './img/IMG_7886.jpg';
+
+import zero     from './img/IMG_6003.JPG';
+import one      from './img/IMG_0654.jpg';
+import two      from './img/IMG_1471.jpg';
+import three    from './img/IMG_2097.jpg';
+import four     from './img/IMG_2741.jpg';
+import five     from './img/IMG_3456.jpg';
+import six      from './img/IMG_3477.jpg';
+import seven    from './img/IMG_4221.jpg';
+import eight    from './img/IMG_4658.jpg';
+import nine     from './img/IMG_4766.jpg';
+import ten      from './img/IMG_4906.jpg';
+import eleven   from './img/IMG_5767.jpg';
+import twelve   from './img/IMG_7886.jpg';
 import thirteen from './img/IMG_7937.jpg';
 import fourteen from './img/IMG_8590.jpg';
-import fifteen from './img/IMG_9052.jpg';
-import sixteen from './img/IMG_9282.jpg';
-import badge from './img/badge.png';
-import npmData from './npmData.json';
-const FontAwesome = require('react-fontawesome');
+import fifteen  from './img/IMG_9052.jpg';
+import sixteen  from './img/IMG_9282.jpg';
+import badge    from './img/badge.png';
+
+import npmData  from './npmData.json';
 // const ImageMagnifier = require('react-image-magnifier');
 
 @observer
@@ -44,24 +45,15 @@ class App extends Component {
   }
 
   componentDidMount() {
-    new Vivus('connor', {
+    new Vivus('Connorsvg', {
       duration: 225,
       delay: 125,
       pathTimingFunction: Vivus.EASE_OUT,
-      file: connor,
+      file: Connorsvg,
       onReady: (myVivus) => {
         myVivus.el.setAttribute('width', '421.3px', 'height', '250');
       }
     });
-    // new Vivus('img', {
-    //   duration: 200,
-    //   delay: 100,
-    //   pathTimingFunction: Vivus.EASE,
-    //   file: img,
-    //   onReady: (myVivus) => {
-    //     myVivus.el.setAttribute('width', '250px');
-    //   }
-    // });
   }
 
   toggleNotification() {
@@ -114,12 +106,11 @@ class App extends Component {
 
             <div className="col-sm-8 content">
               <div className="top-bar">
-                {/* <div className="my-name" id="two">CRAIG O'CONNOR</div>
-                <div className="my-name">CRAIG O'CONNOR</div> */}
+
                 <div className="svg-wrap">
-                    <span id="connor"></span>
-                    <span id="img"></span>
+                    <span id="Connorsvg" />
                 </div>
+
                 <div className="name-info">
                   <FontAwesome className='font-awesome' name='info' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)', position: 'relative', color: '#222' }} />
                   Meaning [Irish] - Strong willed or wise.
@@ -184,28 +175,28 @@ I am an engineer with international experiance and an insatiable intellectual cu
                   <h2 id="proj">Projects</h2>
                   <hr />
 
-                  <div className="col-md-9">
+                  <div className="col-md-11">
                     <b><a className="package-name" href="https://github.com/CraigglesO/Algorithms-and-Machine-Learning" target="_blank">Algorithms & Machine Learning</a></b> [2016]
-                    <div className="description">description</div>
+                    <div className="description">Using the right data structure or algorithm for the situation is an important aspect of programming. This projects is a comprehensive study of data structures and algorithms that have been researched and extensively documented.</div>
                   </div>
 
 
-                  <div className="col-md-9">
+                  <div className="col-md-11">
                     <b><a className="package-name" href="https://github.com/CraigglesO/EmpireEngine" target="_blank">Empire (P2P Network)</a></b> [2017]
                     <div className="description">description</div>
                   </div>
 
-                  <div className="col-md-9">
+                  <div className="col-md-11">
                     <b><a className="package-name" href="https://github.com/CraigglesO/webRTC-Socket" target="_blank">WebRTC Project</a></b> [2017]
-                    <div className="description">description</div>
+                    <div className="description">Uses Websockets to send WebRTC data to and from users. The general purpose of this project was to simplify the use of the WebRTC protocol. Very easy setup and go.</div>
                   </div>
 
-                  <div className="col-md-9">
+                  <div className="col-md-11">
                     <b><a className="package-name" href="https://github.com/CraigglesO/ExampleDocs" target="_blank">Docs from MD files</a></b> [2017]
-                    <div className="description">description</div>
+                    <div className="description">The idea behind this project was to make it as simple as possible to hit the ground running making documentation for your API.</div>
                   </div>
 
-                  <div className="col-md-9">
+                  <div className="col-md-11">
                     <b><a className="package-name" href="https://github.com/CraigglesO/TypeScript-Ready" target="_blank">Typescript Ready</a></b> - Bootstrap [2017]
                     <div className="description">Dependency free method to get you up and going with typescript with one command.</div>
                   </div>

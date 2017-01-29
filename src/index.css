@@ -7,11 +7,11 @@ body {
 }
 
 ::-moz-selection {
-   background-color: #317572;
+   background-color: #c12127;
    color: #fff;
 }
 ::selection {
-    background-color: #317572;
+    background-color: #c12127;
     color: #fff;
 }
 

@@ -27,6 +27,7 @@
 
 .name-info {
   text-align: right;
+  padding-right: 30px;
 }
 
 .Red-Selected {
@@ -293,7 +294,7 @@ tbody {
   width: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .travels:hover {
