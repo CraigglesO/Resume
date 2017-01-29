@@ -1,12 +1,12 @@
 [
 	{
-		"downloads": 725,
-		"start": "2016-12-29",
-		"end": "2017-01-27",
+		"downloads": 854,
+		"start": "2016-12-30",
+		"end": "2017-01-28",
 		"package": "typescript-ready",
 		"info": {
 			"name": "typescript-ready",
-			"version": "3.0.6",
+			"version": "3.1.5",
 			"description": "Create A TypeScript environement. Nodemon ready.",
 			"license": "ISC",
 			"homepage": "https://github.com/CraigglesO/TypeScript-Ready#readme",
@@ -15,8 +15,8 @@
 	},
 	{
 		"downloads": 325,
-		"start": "2016-12-29",
-		"end": "2017-01-27",
+		"start": "2016-12-30",
+		"end": "2017-01-28",
 		"package": "webrtc-socket",
 		"info": {
 			"name": "webrtc-socket",
@@ -28,23 +28,23 @@
 		}
 	},
 	{
-		"downloads": 244,
-		"start": "2016-12-29",
-		"end": "2017-01-27",
+		"downloads": 251,
+		"start": "2016-12-30",
+		"end": "2017-01-28",
 		"package": "babel-ready",
 		"info": {
 			"name": "babel-ready",
-			"version": "1.0.6",
-			"description": "### Quickly get a project up and running (BOILER-PLATE)",
+			"version": "1.0.8",
+			"description": "Quickly get a babel project up and running (BOILER-PLATE)",
 			"license": "ISC",
 			"homepage": "https://github.com/CraigglesO/Babel-Ready#readme",
-			"author": "oconnorct1"
+			"author": "Craig OConnor"
 		}
 	},
 	{
 		"downloads": 197,
-		"start": "2016-12-29",
-		"end": "2017-01-27",
+		"start": "2016-12-30",
+		"end": "2017-01-28",
 		"package": "bit-formater",
 		"info": {
 			"name": "bit-formater",
@@ -57,8 +57,8 @@
 	},
 	{
 		"downloads": 160,
-		"start": "2016-12-29",
-		"end": "2017-01-27",
+		"start": "2016-12-30",
+		"end": "2017-01-28",
 		"package": "torrent-piece-handler",
 		"info": {
 			"name": "torrent-piece-handler",

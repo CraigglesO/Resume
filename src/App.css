@@ -8,6 +8,11 @@
   padding: 0px;
 }
 
+.project {
+  padding: 8px;
+  padding-left: 25px;
+}
+
 .App-intro {
   font-size: 24px;
   font-weight: 300;

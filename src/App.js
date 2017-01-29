@@ -158,12 +158,12 @@ I am an engineer with international experiance and an insatiable intellectual cu
                     <div className="col-lg-4 edification">Express</div>
                     <div className="col-lg-4 edification">MobX/Redux/Flux</div>
                     <div className="col-lg-4 edification">Babel</div>
+                    <div className="col-lg-4 edification">Raspberry Pi/Beaglebone</div>
                     <div className="col-lg-4 edification">Webpack</div>
                     <div className="col-lg-4 edification">Websockets/WebRTC</div>
                     <div className="col-lg-4 edification">CRUD/REST</div>
                     <div className="col-lg-4 edification">P2P Systems</div>
                     <div className="col-lg-4 edification">DHT</div>
-                    <div className="col-lg-4 edification">Raspberry Pi/Beaglebone</div>
                     <div className="col-lg-4 edification">Arch/Ubuntu/Elementary</div>
                     <div className="col-lg-4 edification">Redis/LevelUp/MongoDB</div>
                     <div className="col-sm-12 spacer"></div>
@@ -175,28 +175,33 @@ I am an engineer with international experiance and an insatiable intellectual cu
                   <h2 id="proj">Projects</h2>
                   <hr />
 
-                  <div className="col-md-11">
+                  <div className="col-md-11 project">
                     <b><a className="package-name" href="https://github.com/CraigglesO/Algorithms-and-Machine-Learning" target="_blank">Algorithms & Machine Learning</a></b> [2016]
                     <div className="description">Using the right data structure or algorithm for the situation is an important aspect of programming. This projects is a comprehensive study of data structures and algorithms that have been researched and extensively documented.</div>
                   </div>
 
 
-                  <div className="col-md-11">
+                  <div className="col-md-11 project">
                     <b><a className="package-name" href="https://github.com/CraigglesO/EmpireEngine" target="_blank">Empire (P2P Network)</a></b> [2017]
-                    <div className="description">description</div>
+                    <div className="description">A fast and light peer to peer system for sharing files and data. Let's build a connected world together.</div>
                   </div>
 
-                  <div className="col-md-11">
+                  <div className="col-md-11 project">
+                    <b><a className="package-name" href="https://github.com/CraigglesO/peer-tracker" target="_blank">Peer Tracker</a></b> [2017]
+                    <div className="description">The first of it's kind! A smart persistent Bittorent tracker using Redis.</div>
+                  </div>
+
+                  <div className="col-md-11 project">
                     <b><a className="package-name" href="https://github.com/CraigglesO/webRTC-Socket" target="_blank">WebRTC Project</a></b> [2017]
                     <div className="description">Uses Websockets to send WebRTC data to and from users. The general purpose of this project was to simplify the use of the WebRTC protocol. Very easy setup and go.</div>
                   </div>
 
-                  <div className="col-md-11">
+                  <div className="col-md-11 project">
                     <b><a className="package-name" href="https://github.com/CraigglesO/ExampleDocs" target="_blank">Docs from MD files</a></b> [2017]
                     <div className="description">The idea behind this project was to make it as simple as possible to hit the ground running making documentation for your API.</div>
                   </div>
 
-                  <div className="col-md-11">
+                  <div className="col-md-11 project">
                     <b><a className="package-name" href="https://github.com/CraigglesO/TypeScript-Ready" target="_blank">Typescript Ready</a></b> - Bootstrap [2017]
                     <div className="description">Dependency free method to get you up and going with typescript with one command.</div>
                   </div>
