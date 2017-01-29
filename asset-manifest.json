@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.a009e684.css",
   "main.css.map": "static/css/main.a009e684.css.map",
-  "main.js": "static/js/main.5b71e1dd.js",
-  "main.js.map": "static/js/main.5b71e1dd.js.map",
+  "main.js": "static/js/main.bbff1e9b.js",
+  "main.js.map": "static/js/main.bbff1e9b.js.map",
   "static/media/GUBBLO.ttf": "static/media/GUBBLO.fe253b2f.ttf",
   "static/media/IMG_0654.jpg": "static/media/IMG_0654.c367fdfd.jpg",
   "static/media/IMG_1471.jpg": "static/media/IMG_1471.b93c577a.jpg",
@@ -22,12 +22,11 @@
   "static/media/IMG_9052.jpg": "static/media/IMG_9052.eae28abc.jpg",
   "static/media/IMG_9282.jpg": "static/media/IMG_9282.9c6aeba6.jpg",
   "static/media/badge.png": "static/media/badge.8cade260.png",
-  "static/media/connor.svg": "static/media/connor.aee7ddaf.svg",
+  "static/media/connor.svg": "static/media/connor.3eb3d7e6.svg",
   "static/media/fontawesome-webfont.eot?v=4.7.0": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/img.svg": "static/media/img.a761abd8.svg",
   "static/media/me.png": "static/media/me.cdfcdb20.png"
 }
